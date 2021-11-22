@@ -1,0 +1,43 @@
+/*Edita a header */
+.header{
+    padding: 50px;
+    text-align: center;
+    background: #286090;
+    color: white;
+    font-size: 30px;
+}
+
+/*Aumenta da navbar*/
+.navbar-nav > li > a {
+    line-height: 35px;
+}
+
+/*Aumenta o tamanho da letra na navbar*/
+.item_cabecalho{
+    font-size: 18px;
+}
+
+/*Altera a classe do Booststrap pra deixar o título maior*/
+.panel-primary > .panel-heading {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #337ab7;
+    font-size: 16px;
+    font-weight: bold;  
+}
+
+/*On mouse Over na navbar*/
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover{
+    background-color: #777;
+    /*background-color:  #*/
+}
+
+.navbar-inverse .navbar-nav > li > a{
+    color:white;
+}
+
+/*colunas dos produtos na index*/
+.column {
+    float: left;
+    width: 33.33%;
+}
